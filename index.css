@@ -1,0 +1,46 @@
+@keyframes pular {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+body{
+    background-image: linear-gradient(to right top, #575168, #56536b, #54556e, #525771, #505974, #505b75, #505d77, #505f78, #536178, #566479, #596679, #5c6879);
+}
+
+h1{
+    text-align: center;
+    color: #fcb1c6;
+    font-family: "Righteous";
+
+}
+
+section{
+    margin-left: 42%;
+    color: #e7cadd;
+    text-align: center;
+    border: 2px solid #f4769a;
+    height: 19%;
+    width: 15%;
+}
+
+button:hover{
+    background-color: #ebbddb;
+    animation: pular 1s;
+
+}
+
+div{
+    text-align: center;
+    color: gainsboro;
+}
